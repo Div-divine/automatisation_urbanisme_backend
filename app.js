@@ -16,9 +16,11 @@ app.use(bodyParser.json());
 
 // Import routes
 import indexRouter from './routes/indexRouter.js';
+import collectionRouter from './routes/collectionRouter.js'
 
 // Define routes
 app.use('/', indexRouter);
+app.use('/collection', collectionRouter)
 
 const port = process.env.SERVER_PORT || 3000;
 
