@@ -5,8 +5,11 @@ Urbanisme
 Ce projet est un tableau d'urbanisme.
 
 ## Prérequis
+Assurez-vous d'avoir [Node.js](https://nodejs.org/) installé sur votre machine. Vous pouvez vérifier cela en exécutant :
 
-Ensure you have [Node.js](https://nodejs.org/) installed on your machine. You can verify this by running:
+```bash
+node -v
+npm -v
 
 ## Projet
 
@@ -25,9 +28,3 @@ npm i
 ## Lancer le projet
 npm run dev
 
-
-
-
-```bash
-node -v
-npm -v
